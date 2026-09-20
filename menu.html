@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menu | Hope</title>
+  <meta name="description" content="Starters, mains, desserts and drinks at Hope. Search the menu and filter by vegetarian, vegan, halal, spicy or gluten-free.">
+  <meta name="theme-color" content="#171f4b">
+  <meta property="og:type" content="restaurant.restaurant">
+  <meta property="og:site_name" content="Hope">
+  <meta property="og:title" content="Menu | Hope">
+  <meta property="og:description" content="Starters, mains, desserts and drinks at Hope. Search the menu and filter by vegetarian, vegan, halal, spicy or gluten-free.">
+  <!-- PLACEHOLDER: replace with the full web address of your share image once the site is live. -->
+  <meta property="og:image" content="https://your-domain.example/images/og-cover.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="Hope, home"><span class="brand-sun" aria-hidden="true"></span>Hope</a>
+      <a class="btn btn-sun btn-small header-book" href="reservations.html">Book a table</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        <span class="sr-only">Open navigation</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html" aria-current="page">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="nav-cta"><a href="reservations.html">Book a table</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="page-head">
+      <div class="wrap">
+        <h1>Menu</h1>
+        <p class="lead">Prices are in US dollars. Please tell us about any allergies before you order.</p>
+      </div>
+    </div>
+
+    <section class="section" aria-label="Full menu">
+      <div class="wrap">
+        <div class="filters">
+          <div class="field">
+            <label for="menu-search">Search dishes</label>
+            <input id="menu-search" type="search" autocomplete="off" placeholder="Coconut, chapati, prawns">
+          </div>
+          <div role="group" aria-labelledby="cat-filter-label">
+            <span class="filter-label" id="cat-filter-label">Category</span>
+            <div class="chips">
+              <button class="chip" type="button" data-cat="All" aria-pressed="true">All</button>
+              <button class="chip" type="button" data-cat="Starters" aria-pressed="false">Starters</button>
+              <button class="chip" type="button" data-cat="Mains" aria-pressed="false">Mains</button>
+              <button class="chip" type="button" data-cat="Desserts" aria-pressed="false">Desserts</button>
+              <button class="chip" type="button" data-cat="Drinks" aria-pressed="false">Drinks</button>
+            </div>
+          </div>
+          <div role="group" aria-labelledby="diet-filter-label">
+            <span class="filter-label" id="diet-filter-label">Dietary needs</span>
+            <div class="chips">
+              <button class="chip" type="button" data-tag="Vegetarian" aria-pressed="false">Vegetarian</button>
+              <button class="chip" type="button" data-tag="Vegan" aria-pressed="false">Vegan</button>
+              <button class="chip" type="button" data-tag="Halal" aria-pressed="false">Halal</button>
+              <button class="chip" type="button" data-tag="Spicy" aria-pressed="false">Spicy</button>
+              <button class="chip" type="button" data-tag="Gluten-free" aria-pressed="false">Gluten-free</button>
+            </div>
+          </div>
+          <div class="filter-status">
+            <p id="menu-count" role="status"></p>
+            <button class="btn btn-outline btn-small" type="button" id="menu-clear" hidden>Clear filters</button>
+          </div>
+        </div>
+
+        <div id="menu-root">
+          <p>Loading the menu...</p>
+        </div>
+        <div class="empty-state" id="menu-empty" hidden>
+          <h2>No dishes match</h2>
+          <p>Try a different word, or remove a filter.</p>
+          <button class="btn btn-night" type="button" id="menu-empty-clear">Clear filters</button>
+        </div>
+        <noscript><p>Turn on JavaScript to see the menu, or call us to hear what we are serving today.</p></noscript>
+      </div>
+    </section>
+
+    <section class="cta-band" aria-labelledby="cta-title">
+      <div class="wrap cta-inner">
+        <div>
+          <h2 id="cta-title">Save your table</h2>
+          <p>Tell us when you are coming and how many of you there are.</p>
+        </div>
+        <a class="btn btn-sun" href="reservations.html">Book a table</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="footer-brand">Hope</p>
+        <p class="footer-note">Modern Kenyan cooking, made to be shared.</p>
+        <div class="social" data-site="social"></div>
+      </div>
+      <div>
+        <h2 class="footer-title">Opening hours</h2>
+        <div data-site="hours">
+          <dl class="hours-list">
+            <div class="hours-row"><dt>Monday to Thursday</dt><dd>11:00 to 22:00</dd></div>
+            <div class="hours-row"><dt>Friday and Saturday</dt><dd>11:00 to 23:30</dd></div>
+            <div class="hours-row"><dt>Sunday</dt><dd>12:00 to 21:00</dd></div>
+          </dl>
+        </div>
+      </div>
+      <div>
+        <h2 class="footer-title">Find us</h2>
+        <address data-site="address">[Street address], [City], [Country]</address>
+        <p><a data-site="phone" href="tel:+254700000000">+254 700 000 000</a></p>
+        <p><a data-site="email" href="mailto:hello@example.com">hello@example.com</a></p>
+        <p><a data-site="whatsapp" href="#" hidden>Message us on WhatsApp</a></p>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="footer-base">
+        <p>&copy; <span data-site="year">2026</span> Hope. All rights reserved.</p>
+        <p data-site="credits" hidden></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/site.js"></script>
+  <script src="js/menu.js"></script>
+</body>
+</html>

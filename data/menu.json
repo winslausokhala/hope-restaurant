@@ -1,0 +1,229 @@
+{
+  "currency": "USD",
+  "items": [
+    {
+      "id": "smoked-beef-samosas",
+      "name": "Smoked Beef Samosas",
+      "category": "Starters",
+      "price": 7.5,
+      "description": "Crisp pastry parcels filled with slow-smoked beef, onion and green chilli, served with a tamarind and mint chutney.",
+      "image": "images/menu/smoked-beef-samosas.jpg",
+      "alt": "Three golden samosas beside a small bowl of tamarind chutney",
+      "tags": ["Halal", "Spicy"]
+    },
+    {
+      "id": "sukuma-coconut-fritters",
+      "name": "Sukuma and Coconut Fritters",
+      "category": "Starters",
+      "price": 6.5,
+      "description": "Collard greens, grated coconut and turmeric fried into light fritters, with a lime and chilli dip.",
+      "image": "images/menu/sukuma-coconut-fritters.jpg",
+      "alt": "Green and gold fritters stacked on a plate with a lime wedge",
+      "tags": ["Vegan"]
+    },
+    {
+      "id": "mukimo-croquettes",
+      "name": "Mukimo Croquettes",
+      "category": "Starters",
+      "price": 8.0,
+      "description": "Mashed potato, peas, sweet corn and pumpkin leaves, crumbed and fried, with a fresh tomato and onion kachumbari.",
+      "image": "images/menu/mukimo-croquettes.jpg",
+      "alt": "Golden round croquettes served with a bright tomato and onion salad",
+      "tags": ["Vegetarian"]
+    },
+    {
+      "id": "peri-peri-calamari",
+      "name": "Peri-Peri Calamari",
+      "category": "Starters",
+      "price": 11.5,
+      "description": "Lightly floured squid tossed in a coastal peri-peri and lemon dressing, served with garlic aioli.",
+      "image": "images/menu/peri-peri-calamari.jpg",
+      "alt": "Crisp calamari rings dusted with chilli beside a lemon wedge",
+      "tags": ["Spicy"]
+    },
+    {
+      "id": "butternut-ginger-soup",
+      "name": "Butternut and Ginger Soup",
+      "category": "Starters",
+      "price": 6.0,
+      "description": "Roasted butternut squash blended with ginger and coconut milk, finished with toasted pumpkin seeds.",
+      "image": "images/menu/butternut-ginger-soup.jpg",
+      "alt": "A bowl of orange butternut soup topped with pumpkin seeds",
+      "tags": ["Vegan", "Gluten-free"]
+    },
+    {
+      "id": "coconut-grilled-tilapia",
+      "name": "Coconut Grilled Tilapia",
+      "category": "Mains",
+      "price": 18.0,
+      "description": "Whole tilapia grilled over charcoal and finished with a creamy coconut and lime sauce. Comes with kachumbari and coconut rice.",
+      "image": "images/menu/coconut-grilled-tilapia.jpg",
+      "alt": "A whole grilled tilapia in coconut sauce with rice and a fresh salad",
+      "tags": ["Gluten-free"],
+      "featured": true
+    },
+    {
+      "id": "nyama-choma-platter",
+      "name": "Nyama Choma Platter",
+      "category": "Mains",
+      "price": 24.0,
+      "description": "Charcoal-grilled goat ribs and beef rump, seasoned with salt and lemon, with ugali, kachumbari and a house pepper sauce.",
+      "image": "images/menu/nyama-choma-platter.jpg",
+      "alt": "A wooden board of charred grilled meat with ugali and salad",
+      "tags": ["Halal", "Gluten-free", "Spicy"],
+      "featured": true
+    },
+    {
+      "id": "chicken-tikka-pilau",
+      "name": "Chicken Tikka Pilau",
+      "category": "Mains",
+      "price": 15.5,
+      "description": "Yoghurt-marinated chicken tikka on fragrant pilau rice cooked with cumin, cardamom and cloves.",
+      "image": "images/menu/chicken-tikka-pilau.jpg",
+      "alt": "Pieces of chicken tikka on a mound of spiced pilau rice",
+      "tags": ["Halal"]
+    },
+    {
+      "id": "coastal-prawn-curry",
+      "name": "Coastal Prawn Curry",
+      "category": "Mains",
+      "price": 21.0,
+      "description": "King prawns simmered in a coconut and tomato curry with curry leaf and tamarind, served with steamed rice.",
+      "image": "images/menu/coastal-prawn-curry.jpg",
+      "alt": "A bowl of orange coconut curry with large prawns and rice",
+      "tags": ["Gluten-free", "Spicy"],
+      "featured": true
+    },
+    {
+      "id": "ndengu-chapati-bowl",
+      "name": "Ndengu and Chapati Bowl",
+      "category": "Mains",
+      "price": 12.5,
+      "description": "Slow-cooked green gram stew with garlic and coriander, served with two layered chapatis.",
+      "image": "images/menu/ndengu-chapati-bowl.jpg",
+      "alt": "A bowl of green gram stew beside folded chapati",
+      "tags": ["Vegan"]
+    },
+    {
+      "id": "cauliflower-steak",
+      "name": "Cauliflower Steak with Dhania Chimichurri",
+      "category": "Mains",
+      "price": 14.0,
+      "description": "A thick roasted cauliflower steak with a coriander and lime chimichurri, on a bed of spiced lentils.",
+      "image": "images/menu/cauliflower-steak.jpg",
+      "alt": "A charred cauliflower slice topped with green herb sauce on lentils",
+      "tags": ["Vegan", "Gluten-free"]
+    },
+    {
+      "id": "short-rib-ugali-fries",
+      "name": "Beef Short Rib with Ugali Fries",
+      "category": "Mains",
+      "price": 27.5,
+      "description": "Beef short rib braised for hours in tea and tomato, served with crisp ugali fries and pickled red onion.",
+      "image": "images/menu/short-rib-ugali-fries.jpg",
+      "alt": "A glazed beef short rib with golden ugali fries and pink pickled onion",
+      "tags": ["Halal"]
+    },
+    {
+      "id": "mandazi-chocolate",
+      "name": "Mandazi with Chocolate Dip",
+      "category": "Desserts",
+      "price": 6.5,
+      "description": "Warm cardamom-scented mandazi with a dark chocolate and coffee dipping sauce.",
+      "image": "images/menu/mandazi-chocolate.jpg",
+      "alt": "Triangles of golden mandazi beside a small pot of chocolate sauce",
+      "tags": ["Vegetarian"]
+    },
+    {
+      "id": "passion-fruit-cheesecake",
+      "name": "Passion Fruit Cheesecake",
+      "category": "Desserts",
+      "price": 7.5,
+      "description": "A baked vanilla cheesecake topped with a bright passion fruit curd.",
+      "image": "images/menu/passion-fruit-cheesecake.jpg",
+      "alt": "A slice of cheesecake with a glossy passion fruit topping",
+      "tags": ["Vegetarian"],
+      "featured": true
+    },
+    {
+      "id": "coconut-rice-pudding",
+      "name": "Coconut Rice Pudding",
+      "category": "Desserts",
+      "price": 5.5,
+      "description": "Rice slow-cooked in coconut milk with cardamom and a little palm sugar, finished with toasted coconut.",
+      "image": "images/menu/coconut-rice-pudding.jpg",
+      "alt": "A small bowl of creamy rice pudding sprinkled with toasted coconut",
+      "tags": ["Vegan", "Gluten-free"]
+    },
+    {
+      "id": "roasted-pineapple",
+      "name": "Roasted Pineapple with Vanilla Ice Cream",
+      "category": "Desserts",
+      "price": 7.0,
+      "description": "Pineapple roasted with brown sugar and chilli, served with a scoop of vanilla ice cream.",
+      "image": "images/menu/roasted-pineapple.jpg",
+      "alt": "Caramelised pineapple wedges with a scoop of vanilla ice cream",
+      "tags": ["Vegetarian", "Gluten-free"]
+    },
+    {
+      "id": "dawa-no-alcohol",
+      "name": "Dawa, No Alcohol",
+      "category": "Drinks",
+      "price": 4.5,
+      "description": "Fresh lime, honey and ginger stirred over crushed ice.",
+      "image": "images/menu/dawa-no-alcohol.jpg",
+      "alt": "A tall glass of lime and honey drink over crushed ice with a wooden stirrer",
+      "tags": ["Vegetarian", "Gluten-free"]
+    },
+    {
+      "id": "masala-chai",
+      "name": "Masala Chai",
+      "category": "Drinks",
+      "price": 3.0,
+      "description": "Black tea simmered with milk, ginger and warm spices.",
+      "image": "images/menu/masala-chai.jpg",
+      "alt": "A steaming cup of spiced milk tea",
+      "tags": ["Vegetarian", "Gluten-free"]
+    },
+    {
+      "id": "passion-mint-cooler",
+      "name": "Passion Fruit and Mint Cooler",
+      "category": "Drinks",
+      "price": 4.0,
+      "description": "Fresh passion fruit pulp shaken with mint, lime and sparkling water.",
+      "image": "images/menu/passion-mint-cooler.jpg",
+      "alt": "A glass of passion fruit cooler with mint leaves and ice",
+      "tags": ["Vegan", "Gluten-free"]
+    },
+    {
+      "id": "pour-over-coffee",
+      "name": "Kenyan Pour-Over Coffee",
+      "category": "Drinks",
+      "price": 4.5,
+      "description": "Kenyan beans brewed to order. Bright, fruity and clean.",
+      "image": "images/menu/pour-over-coffee.jpg",
+      "alt": "Coffee being poured through a filter into a glass carafe",
+      "tags": ["Vegan", "Gluten-free"]
+    },
+    {
+      "id": "tamarind-iced-tea",
+      "name": "Tamarind Iced Tea",
+      "category": "Drinks",
+      "price": 3.5,
+      "description": "Black tea cooled with tamarind, a little brown sugar and lemon.",
+      "image": "images/menu/tamarind-iced-tea.jpg",
+      "alt": "A glass of dark iced tea with lemon slices",
+      "tags": ["Vegan", "Gluten-free"]
+    },
+    {
+      "id": "fresh-sugarcane-juice",
+      "name": "Fresh Sugarcane Juice",
+      "category": "Drinks",
+      "price": 3.0,
+      "description": "Pressed to order and served cold with a squeeze of lime.",
+      "image": "images/menu/fresh-sugarcane-juice.jpg",
+      "alt": "A glass of pale green sugarcane juice with a lime wedge",
+      "tags": ["Vegan", "Gluten-free"]
+    }
+  ]
+}
